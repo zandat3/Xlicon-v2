@@ -724,13 +724,13 @@ const responses = {
   hello: `Hello ${pushname}, I am ${BotName}. My current prefix is "${prefix}". How can I help you?`,
   slasher: `My Boss is lost in another Multiverse, and I lost connection with him...`,
   runtime: `Hey ${pushname}\n${nowtime}\n\nMy runtime:${runtime(process.uptime())}\n\nPrefix is: *${prefix}*\n\nTime: ${kaitime}\n\nDate: ${kaidate}\n\nToday is ${currentDay}`,
-  konichiwa: `Konichiwa ${pushname}, I am ${BotName}. How can I help you?`,
-  shinobu: 'Only you...🫶🏻',
+  bot: `heyy ${pushname}, I am ${BotName}. How can I help you?`,
+  mose: 'Only you...🫶🏻',
   ping: `Hey ${pushname}, Pong ${latensie.toFixed(4)} ms`,
   'good morning': `Good morning to you too ${pushname} ☺️. Have a great day 😇.`,
   ohayo: `Good morning to you too ${pushname} ☺️. Have a great day 😇.`,
   'good afternoon': `Good afternoon to you too ${pushname} ✨. Wishing you an enjoyable afternoon too 😇🤞🏻.`,
-  konnichiwa: `Good afternoon to you too ${pushname} ✨. Wishing you an enjoyable afternoon too 😇🤞🏻.`,
+  konichiwa: `Good afternoon to you too ${pushname} ✨. Wishing you an enjoyable afternoon too 😇🤞🏻.`,
   'good night': `Good night to you too ${pushname} 😇. Sleep well and sweet dreams.`,
  
 };
@@ -2942,7 +2942,7 @@ let buttonsntilink = [
 ]
 await A17.sendButtonText(m.chat, buttonsntilink, `Please click the button below On / Off `, `${global.BotName}`, m)
 }
-}
+} can
 break;
 
 
@@ -6635,15 +6635,15 @@ break;
   A17.sendMessage(from, { react: { text: "✅" , key: m.key }})      
   const helpmenu = `Konnichiwaa! *${pushname}* Senpai...!! ${nowtime} ,
   
-Hemlo, I am "Xlicon-Multidevice" a WhatsApp bot create and recode by Slasher to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+Hello, I am "𒁂⃝ᰲ—͟͟͞͞𖣘꙲B꙲U꙲꙲G꙲꙲𒁂⃝ᰲ M꙲꙲O꙲꙲D꙲꙲Z꙲꙲༒" a WhatsApp bot create and recode by ➳ᴹᴿ᭄ᴍᴏᴤᴇ༒ to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
 
   ⨳    *Bot user name :* ${pushname} 
   ⨳    *My prefix is :*  ${prefix}
   ⨳    *Owner name :* ${global.OwnerName} 
   ⨳    *Bot runtime :* ${runtime(process.uptime())} 
   ⨳    *Platform :* Linux
-  ⨳    *Founder :* Slasher!!
-  ⨳    *Base Credit :* Kai..!!
+  ⨳    *Founder :* ➳ᴹᴿ᭄ᴍᴏᴤᴇ༒!!
+  ⨳    *Base Credit :* ➳ᴹᴿ᭄ᴍᴏᴤᴇ༒..!!
   ⨳    *Time* : ${kaitime}
   ⨳    *Date* : ${kaidate}
 
@@ -7006,7 +7006,7 @@ Hemlo, I am "Xlicon-Multidevice" a WhatsApp bot create and recode by Slasher to 
   ┇ ❍     all NSFW commands.
   ┇ ❍  
   ┇ ❍ 『  *${global.BotName}*  』
-  ┇ ❍     Developed By: *Slasher*
+  ┇ ❍     Developed By: *➳ᴹᴿ᭄ᴍᴏᴤᴇ༒*
   ┇ ❍  
   ┇ ❍ 🎯 To use any of these
   ┇ ❍     commands type.
